@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "mongoURI": "mongodb+srv://nortimg:az905467@cluster0.jdcom.azure.mongodb.net/app?retryWrites=true&w=majority", 
+    "jwtSecret": "liao ha"
+}

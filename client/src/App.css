@@ -1,0 +1,18 @@
+.auth-page__buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+input.yellow-input {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white;
+}
+
+input.yellow-input + label {
+    color: white !important;
+}
+
+input.yellow-input:focus {
+    border-bottom: 1px solid orange !important;
+    box-shadow: 0 1px 0 0 orange;
+}
