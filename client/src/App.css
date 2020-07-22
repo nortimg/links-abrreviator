@@ -20,3 +20,13 @@ input.yellow-input:focus {
     border-bottom: 1px solid orange !important;
     box-shadow: 0 1px 0 0 orange;
 }
+
+.create-page {
+    padding-top: 2rem;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
