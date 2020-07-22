@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "server": "nodemon app.js", 
-    "client": "npm run start --prefix client", 
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
@@ -30,7 +30,8 @@
     "express": "^4.17.1",
     "express-validator": "^6.6.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.25"
+    "mongoose": "^5.9.25",
+    "shortid": "^2.2.15"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
